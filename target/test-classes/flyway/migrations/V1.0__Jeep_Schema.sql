@@ -11,7 +11,7 @@ DROP TABLE IF EXISTS customers;
 CREATE TABLE customers (
   customer_pk int unsigned NOT NULL AUTO_INCREMENT,
   customer_id varchar(40) NOT NULL,
-  first_name varchar(45) NOT NULL, 
+  first_name varchar(45) NOT NULL,
   last_name varchar(45) NOT NULL,
   phone varchar(20),
   PRIMARY KEY (customer_pk)
