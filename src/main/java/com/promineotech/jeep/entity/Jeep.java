@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.promineotech.jeep.entity;
 
 import java.math.BigDecimal;

@@ -9,11 +9,11 @@ import lombok.Data;
 public class Engine {
   private Long enginePK;
   private String engineId;
-  private float sizeInLiters;
+  private Float sizeInLiters;
   private String name;
   private FuelType fuelType;
-  private float mpgCity;
-  private float mpgHwy;
+  private Float mpgCity;
+  private Float mpgHwy;
   private boolean hasStartStop;
   private String description;
   private BigDecimal price;

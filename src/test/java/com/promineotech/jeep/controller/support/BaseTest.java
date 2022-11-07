@@ -13,10 +13,18 @@ public class BaseTest {
   @Getter
   private TestRestTemplate restTemplate;
   
+  /**
+   * 
+   * @return
+   */
   protected String getBaseUriForJeeps() {
     return String.format("http://localhost:%d/jeeps", serverPort);
   }
   
+  /**
+   * 
+   * @return
+   */
   protected String getBaseUriForOrders() {
     return String.format("http://localhost:%d/orders", serverPort);
   }

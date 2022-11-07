@@ -42,6 +42,7 @@ public class DefaultJeepOrderService implements JeepOrderService {
         .add(engine.getPrice())
         .add(tire.getPrice());
     //@formatter:on
+    
     for (Option option : options) {
       price = price.add(option.getPrice());
     }

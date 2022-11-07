@@ -157,7 +157,7 @@ public class DefaultJeepOrderDao implements JeepOrderDao {
       sql += ":" + key + ", ";
       params.put(key, optionIds.get(index));
     }
-
+    
     sql = sql.substring(0, sql.length() - 2);
     sql += ")";
 

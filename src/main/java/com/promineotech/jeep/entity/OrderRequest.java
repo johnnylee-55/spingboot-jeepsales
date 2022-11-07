@@ -44,5 +44,5 @@ public class OrderRequest {
   @Pattern(regexp = "[\\w\\s]*")
   private String tire;
   
-  private List<@NotNull @Length(max = 30) @Pattern(regexp = "[\\w\\s]*")String> options;
+  private List<@NotNull @Length(max = 30) @Pattern(regexp = "[\\w\\s]*") String> options;
 }
